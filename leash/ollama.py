@@ -1,7 +1,7 @@
 """
-grounded.ollama — a zero-dependency client for a local Ollama server.
+leash.ollama — a zero-dependency client for a local Ollama server.
 
-Uses only the standard library (urllib), so `grounded` stays install-free.
+Uses only the standard library (urllib), so `leash` stays install-free.
 If you already have an Ollama HTTP client you like, ignore this file and pass
 your own `chat` callable to `llm_reasoner`.
 """

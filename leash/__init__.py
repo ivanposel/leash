@@ -1,9 +1,9 @@
 """
-grounded — give small local LLMs the discipline to look, think, act, and verify.
+leash — keep small local LLMs on a leash: look, think, act, and verify.
 
-    from grounded import grounded_act
-    from grounded.reason import llm_reasoner
-    from grounded.ollama import chat_fn
+    from leash import grounded_act
+    from leash.reason import llm_reasoner
+    from leash.ollama import chat_fn
 
     outcome = grounded_act(
         "the login form should be submitted",

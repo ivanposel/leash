@@ -1,5 +1,5 @@
 """
-grounded.reason — turn a local LLM (or a plain heuristic) into a go/no-go gate.
+leash.reason — turn a local LLM (or a plain heuristic) into a go/no-go gate.
 
 The THINK step of the loop takes (goal, observation, action_desc) and returns a
 Decision. Here are two ready-made thinkers:
@@ -81,7 +81,7 @@ def llm_reasoner(
     """Build a THINK function backed by a local model.
 
     `chat` is any callable that takes a prompt string and returns the model's
-    text reply — e.g. `functools.partial(grounded.ollama.generate, model="qwen2.5:3b")`.
+    text reply — e.g. `functools.partial(leash.ollama.generate, model="qwen2.5:3b")`.
     """
 
     def think(goal: str, observation: Any, action_desc: str) -> Decision:

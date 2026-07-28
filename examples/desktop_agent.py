@@ -10,9 +10,9 @@ Here the "world" is a fake UI state machine so the example is safe to run, but
 reader, a click, and a post-condition check. The model decides whether clicking
 "Submit" right now actually advances the goal.
 """
-from grounded import grounded_act
-from grounded.reason import llm_reasoner
-from grounded.ollama import chat_fn
+from leash import grounded_act
+from leash.reason import llm_reasoner
+from leash.ollama import chat_fn
 
 # A fake app screen. Swap observe/act for real screen-reading + clicking.
 screen = {"form": "empty", "submitted": False}

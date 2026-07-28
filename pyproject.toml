@@ -3,13 +3,13 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "grounded"
+name = "leash"
 version = "0.1.0"
-description = "Give small local LLMs the discipline to look, think, act, and verify — so they never act blind."
+description = "Keep small local LLMs on a leash — look, think, act, verify — so they never act blind."
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
-keywords = ["llm", "agents", "ollama", "local-llm", "automation", "verification", "grounding"]
+keywords = ["llm", "agents", "ollama", "local-llm", "automation", "verification", "grounding", "ai-safety"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -20,8 +20,8 @@ classifiers = [
 dependencies = []   # standard library only
 
 [project.urls]
-Homepage = "https://github.com/ivanposel/grounded"
-Issues = "https://github.com/ivanposel/grounded/issues"
+Homepage = "https://github.com/ivanposel/leash"
+Issues = "https://github.com/ivanposel/leash/issues"
 
 [tool.hatch.build.targets.wheel]
-packages = ["grounded"]
+packages = ["leash"]

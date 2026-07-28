@@ -83,7 +83,7 @@ def grounded_act(
                        before thinking and again after acting.
         act:           () -> Any. The side-effecting action itself.
         think:         (goal, observation, action_desc) -> Decision. Usually a
-                       local LLM (see grounded.reason.llm_reasoner), but any
+                       local LLM (see leash.reason.llm_reasoner), but any
                        callable works.
         verify:        (before, after) -> bool. Did the action actually change
                        the world the way we wanted? Optional but recommended.

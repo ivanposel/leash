@@ -8,8 +8,8 @@ It shows the whole look -> think -> act -> verify loop against a tiny in-memory
 
 Then try the real-model version in examples/desktop_agent.py once Ollama is up.
 """
-from grounded import grounded_act
-from grounded.reason import heuristic_reasoner
+from leash import grounded_act
+from leash.reason import heuristic_reasoner
 
 # A toy "world": a light switch we want to turn ON.
 world = {"light": "off"}

@@ -1,9 +1,9 @@
 """Tests for the grounded loop. Run: python -m pytest  (or python -m unittest)."""
 import unittest
 
-from grounded import grounded_act
-from grounded.core import Decision
-from grounded.reason import heuristic_reasoner, parse_decision
+from leash import grounded_act
+from leash.core import Decision
+from leash.reason import heuristic_reasoner, parse_decision
 
 
 def always(v):
