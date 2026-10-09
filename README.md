@@ -1,5 +1,8 @@
 # leash
 
+[![tests](https://github.com/ivanposel/leash/actions/workflows/ci.yml/badge.svg)](https://github.com/ivanposel/leash/actions/workflows/ci.yml)
+
+
 **Keep small local LLMs on a leash: look, think, act, and verify — so they never act blind.**
 
 A small local model (Llama, Qwen, Phi, running on Ollama) is fast, private, and free — and *confident and wrong* just often enough to be dangerous when it drives real actions: clicking buttons, posting, buying, deleting, sending. `leash` wraps any action in a four-step loop so the model earns each action instead of guessing it:
